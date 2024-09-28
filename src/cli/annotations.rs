@@ -1,3 +1,6 @@
+use log::{Level::Info, debug, error, info, log_enabled, trace, warn};
+use std::fmt::Write;
+
 use std::{
     collections::{HashMap, HashSet},
     path::PathBuf,
